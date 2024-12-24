@@ -11,7 +11,7 @@ function addTask() {
         var datas = JSON.parse(localStorage.getItem('data'));
         var i;
         var v=false;
-        if(datas === null){
+        if(datas == null){
             v=false;    
         }
         else{
